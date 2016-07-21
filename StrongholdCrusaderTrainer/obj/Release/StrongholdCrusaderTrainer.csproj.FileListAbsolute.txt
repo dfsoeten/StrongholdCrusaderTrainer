@@ -1,0 +1,9 @@
+D:\This pc\Documents\Trainers\Trainers\StrongholdCrusaderTrainer\StrongholdCrusaderTrainer\bin\Release\StrongholdCrusaderTrainer.exe.config
+D:\This pc\Documents\Trainers\Trainers\StrongholdCrusaderTrainer\StrongholdCrusaderTrainer\bin\Release\StrongholdCrusaderTrainer.exe
+D:\This pc\Documents\Trainers\Trainers\StrongholdCrusaderTrainer\StrongholdCrusaderTrainer\bin\Release\StrongholdCrusaderTrainer.pdb
+D:\This pc\Documents\Trainers\Trainers\StrongholdCrusaderTrainer\StrongholdCrusaderTrainer\bin\Release\Memory.dll
+D:\This pc\Documents\Trainers\Trainers\StrongholdCrusaderTrainer\StrongholdCrusaderTrainer\obj\Release\StrongholdCrusaderTrainer.Form1.resources
+D:\This pc\Documents\Trainers\Trainers\StrongholdCrusaderTrainer\StrongholdCrusaderTrainer\obj\Release\StrongholdCrusaderTrainer.Properties.Resources.resources
+D:\This pc\Documents\Trainers\Trainers\StrongholdCrusaderTrainer\StrongholdCrusaderTrainer\obj\Release\StrongholdCrusaderTrainer.csproj.GenerateResource.Cache
+D:\This pc\Documents\Trainers\Trainers\StrongholdCrusaderTrainer\StrongholdCrusaderTrainer\obj\Release\StrongholdCrusaderTrainer.exe
+D:\This pc\Documents\Trainers\Trainers\StrongholdCrusaderTrainer\StrongholdCrusaderTrainer\obj\Release\StrongholdCrusaderTrainer.pdb

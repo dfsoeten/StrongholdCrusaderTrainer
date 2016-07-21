@@ -126,7 +126,6 @@
             this.cbAutoAddAllGoods.TabIndex = 5;
             this.cbAutoAddAllGoods.Text = "Auto Add All Goods";
             this.cbAutoAddAllGoods.UseVisualStyleBackColor = true;
-            this.cbAutoAddAllGoods.CheckedChanged += new System.EventHandler(this.cbAutoAddAllGoods_CheckedChanged);
             // 
             // btnAddAllGoods
             // 
@@ -285,6 +284,7 @@
             this.btnAddAllFoods.TabIndex = 13;
             this.btnAddAllFoods.Text = "Add All Foods";
             this.btnAddAllFoods.UseVisualStyleBackColor = false;
+            this.btnAddAllFoods.Click += new System.EventHandler(this.btnAddAllFoods_Click);
             // 
             // btnWheat
             // 
@@ -296,6 +296,7 @@
             this.btnWheat.TabIndex = 12;
             this.btnWheat.Text = "Wheat";
             this.btnWheat.UseVisualStyleBackColor = false;
+            this.btnWheat.Click += new System.EventHandler(this.btnWheat_Click);
             // 
             // btnAle
             // 
@@ -307,6 +308,7 @@
             this.btnAle.TabIndex = 11;
             this.btnAle.Text = "Ale";
             this.btnAle.UseVisualStyleBackColor = false;
+            this.btnAle.Click += new System.EventHandler(this.btnAle_Click);
             // 
             // btnHops
             // 
@@ -318,6 +320,7 @@
             this.btnHops.TabIndex = 10;
             this.btnHops.Text = "Hops";
             this.btnHops.UseVisualStyleBackColor = false;
+            this.btnHops.Click += new System.EventHandler(this.btnHops_Click);
             // 
             // btnMeat
             // 
@@ -329,6 +332,7 @@
             this.btnMeat.TabIndex = 9;
             this.btnMeat.Text = "Meat";
             this.btnMeat.UseVisualStyleBackColor = false;
+            this.btnMeat.Click += new System.EventHandler(this.btnMeat_Click);
             // 
             // btnApples
             // 
@@ -340,6 +344,7 @@
             this.btnApples.TabIndex = 8;
             this.btnApples.Text = "Apples";
             this.btnApples.UseVisualStyleBackColor = false;
+            this.btnApples.Click += new System.EventHandler(this.btnApples_Click);
             // 
             // btnCheese
             // 
@@ -351,6 +356,7 @@
             this.btnCheese.TabIndex = 7;
             this.btnCheese.Text = "Cheese";
             this.btnCheese.UseVisualStyleBackColor = false;
+            this.btnCheese.Click += new System.EventHandler(this.btnCheese_Click);
             // 
             // btnBread
             // 
@@ -362,6 +368,7 @@
             this.btnBread.TabIndex = 6;
             this.btnBread.Text = "Bread";
             this.btnBread.UseVisualStyleBackColor = false;
+            this.btnBread.Click += new System.EventHandler(this.btnBread_Click);
             // 
             // gbWeapons
             // 
@@ -392,6 +399,7 @@
             this.btnAddAllWeapons.TabIndex = 14;
             this.btnAddAllWeapons.Text = "Add All Weapons";
             this.btnAddAllWeapons.UseVisualStyleBackColor = false;
+            this.btnAddAllWeapons.Click += new System.EventHandler(this.btnAddAllWeapons_Click);
             // 
             // btnIronArmor
             // 
@@ -403,6 +411,7 @@
             this.btnIronArmor.TabIndex = 13;
             this.btnIronArmor.Text = "Iron Armor";
             this.btnIronArmor.UseVisualStyleBackColor = false;
+            this.btnIronArmor.Click += new System.EventHandler(this.btnIronArmor_Click);
             // 
             // btnLeatherArmor
             // 
@@ -414,6 +423,7 @@
             this.btnLeatherArmor.TabIndex = 12;
             this.btnLeatherArmor.Text = "Leather Armor";
             this.btnLeatherArmor.UseVisualStyleBackColor = false;
+            this.btnLeatherArmor.Click += new System.EventHandler(this.btnLeatherArmor_Click);
             // 
             // btnSwords
             // 
@@ -425,6 +435,7 @@
             this.btnSwords.TabIndex = 11;
             this.btnSwords.Text = "Swords";
             this.btnSwords.UseVisualStyleBackColor = false;
+            this.btnSwords.Click += new System.EventHandler(this.btnSwords_Click);
             // 
             // btnMaces
             // 
@@ -436,6 +447,7 @@
             this.btnMaces.TabIndex = 10;
             this.btnMaces.Text = "Maces";
             this.btnMaces.UseVisualStyleBackColor = false;
+            this.btnMaces.Click += new System.EventHandler(this.btnMaces_Click);
             // 
             // btnPikes
             // 
@@ -447,6 +459,7 @@
             this.btnPikes.TabIndex = 9;
             this.btnPikes.Text = "Pikes";
             this.btnPikes.UseVisualStyleBackColor = false;
+            this.btnPikes.Click += new System.EventHandler(this.btnPikes_Click);
             // 
             // btnSpears
             // 
@@ -458,6 +471,7 @@
             this.btnSpears.TabIndex = 8;
             this.btnSpears.Text = "Spears";
             this.btnSpears.UseVisualStyleBackColor = false;
+            this.btnSpears.Click += new System.EventHandler(this.btnSpears_Click);
             // 
             // btnBows
             // 
@@ -469,6 +483,7 @@
             this.btnBows.TabIndex = 7;
             this.btnBows.Text = "Bows";
             this.btnBows.UseVisualStyleBackColor = false;
+            this.btnBows.Click += new System.EventHandler(this.btnBows_Click);
             // 
             // lbValueInfo
             // 
