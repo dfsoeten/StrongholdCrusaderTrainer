@@ -6,12 +6,10 @@ It's available on steam [here](http://store.steampowered.com/app/40970/).
 Set the following values:
 - Gold
 - Chickens/Skips
-
 - Wood
 - Stone
 - Iron
 - Pitch
-
 - Bread
 - Cheese
 - Apples
@@ -19,7 +17,6 @@ Set the following values:
 - Hops
 - Ale
 - Wheat
-
 - Bows
 - Spears
 - Pikes
