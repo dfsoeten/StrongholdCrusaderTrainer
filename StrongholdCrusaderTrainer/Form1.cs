@@ -16,7 +16,7 @@ namespace StrongholdCrusaderTrainer
         public string codeFile = Application.StartupPath + @"\strongholdcrusader.ini";
         public Mem MemLib = new Mem();
         int gameProcId = 0;
-        int goodsAmount = 200;
+        int goodsAmount = 100;
 
         public Form1()
         {

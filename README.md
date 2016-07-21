@@ -3,13 +3,35 @@ This a simple trainer I made for a game called Stronghold Crusader.
 It's available on steam [here](http://store.steampowered.com/app/40970/).
 
 ### Features
-- Set gold
-- Set health
-- Set upgrade points
+Set the following values:
+- Gold
+- Chickens/Skips
+
+- Wood
+- Stone
+- Iron
+- Pitch
+
+- Bread
+- Cheese
+- Apples
+- Meat
+- Hops
+- Ale
+- Wheat
+
+- Bows
+- Spears
+- Pikes
+- Maces
+- Swords
+- Leather Armor
+- Iron Armor
+
+There are options available to automatically add goods depending on the amount of that good that's available in your stockpile. Each button adds 100 of that specifc good. 
 
 ### How to use
-Just click the checkboxes to set the values.  
-Click the button to set the upgrade points to the specified amount,	65 is the exact amount to unlock all upgrades.
+Start the game, start the trainer. Press buttons. Easy as that!
 
 ### Cheat Table
 This repository also includes the original cheat table, so if you're just looking for that you could use it aswell.
