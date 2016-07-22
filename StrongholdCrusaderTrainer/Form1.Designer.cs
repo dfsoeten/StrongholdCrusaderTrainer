@@ -68,6 +68,7 @@
             this.btnBows = new System.Windows.Forms.Button();
             this.lbValueInfo = new System.Windows.Forms.Label();
             this.lbCreatedBy = new System.Windows.Forms.Label();
+            this.btnCrossBows = new System.Windows.Forms.Button();
             this.gbGeneralAndExtra.SuspendLayout();
             this.gbRawMaterials.SuspendLayout();
             this.gbFoods.SuspendLayout();
@@ -142,6 +143,7 @@
             // txtChickens
             // 
             this.txtChickens.Location = new System.Drawing.Point(123, 48);
+            this.txtChickens.MaxLength = 9;
             this.txtChickens.Name = "txtChickens";
             this.txtChickens.Size = new System.Drawing.Size(100, 20);
             this.txtChickens.TabIndex = 3;
@@ -162,6 +164,7 @@
             // txtGold
             // 
             this.txtGold.Location = new System.Drawing.Point(123, 22);
+            this.txtGold.MaxLength = 9;
             this.txtGold.Name = "txtGold";
             this.txtGold.Size = new System.Drawing.Size(100, 20);
             this.txtGold.TabIndex = 1;
@@ -373,6 +376,7 @@
             // gbWeapons
             // 
             this.gbWeapons.BackColor = System.Drawing.Color.Transparent;
+            this.gbWeapons.Controls.Add(this.btnCrossBows);
             this.gbWeapons.Controls.Add(this.btnAddAllWeapons);
             this.gbWeapons.Controls.Add(this.btnIronArmor);
             this.gbWeapons.Controls.Add(this.btnLeatherArmor);
@@ -382,9 +386,9 @@
             this.gbWeapons.Controls.Add(this.btnSpears);
             this.gbWeapons.Controls.Add(this.btnBows);
             this.gbWeapons.ForeColor = System.Drawing.Color.White;
-            this.gbWeapons.Location = new System.Drawing.Point(262, 189);
+            this.gbWeapons.Location = new System.Drawing.Point(262, 179);
             this.gbWeapons.Name = "gbWeapons";
-            this.gbWeapons.Size = new System.Drawing.Size(310, 137);
+            this.gbWeapons.Size = new System.Drawing.Size(310, 170);
             this.gbWeapons.TabIndex = 5;
             this.gbWeapons.TabStop = false;
             this.gbWeapons.Text = "Weapons";
@@ -393,9 +397,9 @@
             // 
             this.btnAddAllWeapons.BackColor = System.Drawing.Color.DimGray;
             this.btnAddAllWeapons.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnAddAllWeapons.Location = new System.Drawing.Point(158, 106);
+            this.btnAddAllWeapons.Location = new System.Drawing.Point(6, 134);
             this.btnAddAllWeapons.Name = "btnAddAllWeapons";
-            this.btnAddAllWeapons.Size = new System.Drawing.Size(146, 23);
+            this.btnAddAllWeapons.Size = new System.Drawing.Size(298, 23);
             this.btnAddAllWeapons.TabIndex = 14;
             this.btnAddAllWeapons.Text = "Add All Weapons";
             this.btnAddAllWeapons.UseVisualStyleBackColor = false;
@@ -405,7 +409,7 @@
             // 
             this.btnIronArmor.BackColor = System.Drawing.Color.DimGray;
             this.btnIronArmor.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnIronArmor.Location = new System.Drawing.Point(6, 106);
+            this.btnIronArmor.Location = new System.Drawing.Point(158, 105);
             this.btnIronArmor.Name = "btnIronArmor";
             this.btnIronArmor.Size = new System.Drawing.Size(146, 23);
             this.btnIronArmor.TabIndex = 13;
@@ -417,7 +421,7 @@
             // 
             this.btnLeatherArmor.BackColor = System.Drawing.Color.DimGray;
             this.btnLeatherArmor.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnLeatherArmor.Location = new System.Drawing.Point(158, 77);
+            this.btnLeatherArmor.Location = new System.Drawing.Point(6, 105);
             this.btnLeatherArmor.Name = "btnLeatherArmor";
             this.btnLeatherArmor.Size = new System.Drawing.Size(146, 23);
             this.btnLeatherArmor.TabIndex = 12;
@@ -429,7 +433,7 @@
             // 
             this.btnSwords.BackColor = System.Drawing.Color.DimGray;
             this.btnSwords.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnSwords.Location = new System.Drawing.Point(6, 77);
+            this.btnSwords.Location = new System.Drawing.Point(158, 76);
             this.btnSwords.Name = "btnSwords";
             this.btnSwords.Size = new System.Drawing.Size(146, 23);
             this.btnSwords.TabIndex = 11;
@@ -441,7 +445,7 @@
             // 
             this.btnMaces.BackColor = System.Drawing.Color.DimGray;
             this.btnMaces.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnMaces.Location = new System.Drawing.Point(158, 48);
+            this.btnMaces.Location = new System.Drawing.Point(6, 76);
             this.btnMaces.Name = "btnMaces";
             this.btnMaces.Size = new System.Drawing.Size(146, 23);
             this.btnMaces.TabIndex = 10;
@@ -453,7 +457,7 @@
             // 
             this.btnPikes.BackColor = System.Drawing.Color.DimGray;
             this.btnPikes.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnPikes.Location = new System.Drawing.Point(6, 48);
+            this.btnPikes.Location = new System.Drawing.Point(158, 47);
             this.btnPikes.Name = "btnPikes";
             this.btnPikes.Size = new System.Drawing.Size(146, 23);
             this.btnPikes.TabIndex = 9;
@@ -465,7 +469,7 @@
             // 
             this.btnSpears.BackColor = System.Drawing.Color.DimGray;
             this.btnSpears.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnSpears.Location = new System.Drawing.Point(158, 19);
+            this.btnSpears.Location = new System.Drawing.Point(6, 48);
             this.btnSpears.Name = "btnSpears";
             this.btnSpears.Size = new System.Drawing.Size(146, 23);
             this.btnSpears.TabIndex = 8;
@@ -490,7 +494,7 @@
             this.lbValueInfo.AutoSize = true;
             this.lbValueInfo.BackColor = System.Drawing.Color.Transparent;
             this.lbValueInfo.ForeColor = System.Drawing.Color.White;
-            this.lbValueInfo.Location = new System.Drawing.Point(262, 336);
+            this.lbValueInfo.Location = new System.Drawing.Point(117, 13);
             this.lbValueInfo.Name = "lbValueInfo";
             this.lbValueInfo.Size = new System.Drawing.Size(175, 13);
             this.lbValueInfo.TabIndex = 6;
@@ -506,6 +510,18 @@
             this.lbCreatedBy.Size = new System.Drawing.Size(227, 13);
             this.lbCreatedBy.TabIndex = 7;
             this.lbCreatedBy.Text = "Created by Dan with help from Newage Soldier";
+            // 
+            // btnCrossBows
+            // 
+            this.btnCrossBows.BackColor = System.Drawing.Color.DimGray;
+            this.btnCrossBows.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnCrossBows.Location = new System.Drawing.Point(158, 19);
+            this.btnCrossBows.Name = "btnCrossBows";
+            this.btnCrossBows.Size = new System.Drawing.Size(146, 23);
+            this.btnCrossBows.TabIndex = 15;
+            this.btnCrossBows.Text = "Crossbows";
+            this.btnCrossBows.UseVisualStyleBackColor = false;
+            this.btnCrossBows.Click += new System.EventHandler(this.btnCrossBows_Click);
             // 
             // Form1
             // 
@@ -577,6 +593,7 @@
         private System.Windows.Forms.Button btnBows;
         private System.Windows.Forms.Label lbValueInfo;
         private System.Windows.Forms.Label lbCreatedBy;
+        private System.Windows.Forms.Button btnCrossBows;
     }
 }
 

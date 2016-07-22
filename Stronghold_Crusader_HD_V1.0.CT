@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="18">
+<CheatTable CheatEngineTableVersion="19">
   <CheatEntries>
     <CheatEntry>
       <ID>2</ID>
       <Description>"Cheats"</Description>
       <Options moHideChildren="1"/>
-      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
       <Color>000000</Color>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
@@ -13,14 +13,13 @@
           <ID>39</ID>
           <Description>"General"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" Activated="0" RealAddress="00000000"/>
-          <Color>80000008</Color>
+          <LastState Value="" RealAddress="00000000"/>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>1</ID>
               <Description>"Gold"</Description>
-              <LastState Value="94349" Activated="0" RealAddress="0115ECF0"/>
+              <LastState Value="9220" RealAddress="0115ECF0"/>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
               <Address>"Stronghold Crusader.exe"+D5ECF0</Address>
@@ -31,30 +30,28 @@
           <ID>41</ID>
           <Description>"Goods"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" Activated="0" RealAddress="00000000"/>
-          <Color>80000008</Color>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>42</ID>
               <Description>"Raw Materials"</Description>
               <Options moHideChildren="1"/>
-              <LastState Value="" Activated="0" RealAddress="00000000"/>
-              <Color>80000008</Color>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
                   <ID>10</ID>
                   <Description>"Wood"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <Color>000000</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>3</ID>
                       <Description>"Wood"</Description>
-                      <LastState Value="121" Activated="0" RealAddress="0115ECBC"/>
+                      <LastState Value="109" RealAddress="0115ECBC"/>
                       <Color>004080</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECBC</Address>
@@ -62,8 +59,7 @@
                     <CheatEntry>
                       <ID>20</ID>
                       <Description>"Add Wood"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC58"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115EC58"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC58</Address>
                     </CheatEntry>
@@ -73,23 +69,21 @@
                   <ID>7</ID>
                   <Description>"Stone"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <Color>000000</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>4</ID>
                       <Description>"Stone"</Description>
-                      <LastState Value="40" Activated="0" RealAddress="0115ECC4"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115ECC4"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECC4</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>22</ID>
                       <Description>"Add Stone"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC60"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115EC60"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC60</Address>
                     </CheatEntry>
@@ -99,23 +93,20 @@
                   <ID>46</ID>
                   <Description>"Iron"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>45</ID>
                       <Description>"Iron"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115ECCC"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115ECCC"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECCC</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>24</ID>
                       <Description>"Add Iron"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC68"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115EC68"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC68</Address>
                     </CheatEntry>
@@ -125,23 +116,20 @@
                   <ID>50</ID>
                   <Description>"PItch"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>49</ID>
                       <Description>"Pitch"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115ECD0"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115ECD0"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECD0</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>26</ID>
                       <Description>"Add Pitch"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC6C"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115EC6C"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC6C</Address>
                     </CheatEntry>
@@ -153,31 +141,28 @@
               <ID>43</ID>
               <Description>"Foods"</Description>
               <Options moHideChildren="1"/>
-              <LastState Value="" Activated="0" RealAddress="00000000"/>
-              <Color>80000008</Color>
+              <LastState Value="" Activated="1" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
                   <ID>16</ID>
                   <Description>"Bread"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
+                  <LastState Value="" Activated="1" RealAddress="00000000"/>
                   <Color>000000</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>13</ID>
                       <Description>"Bread"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115ECDC"/>
-                      <Color>80000008</Color>
+                      <LastState Value="139" RealAddress="0115ECDC"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECDC</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19</ID>
                       <Description>"Add Bread"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC78"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115EC78"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC78</Address>
                     </CheatEntry>
@@ -187,23 +172,20 @@
                   <ID>57</ID>
                   <Description>"Cheese"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" Activated="1" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>56</ID>
                       <Description>"Cheese"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="01160874"/>
-                      <Color>80000008</Color>
+                      <LastState Value="305" RealAddress="01160874"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D60874</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>29</ID>
                       <Description>"Add Cheese"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC7C"/>
-                      <Color>80000008</Color>
+                      <LastState Value="35" RealAddress="0115EC7C"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC7C</Address>
                     </CheatEntry>
@@ -213,23 +195,20 @@
                   <ID>60</ID>
                   <Description>"Apples"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" Activated="1" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>59</ID>
                       <Description>"Apples"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0116087C"/>
-                      <Color>80000008</Color>
+                      <LastState Value="229" RealAddress="0116087C"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D6087C</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>31</ID>
                       <Description>"Add Apples"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC84"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115EC84"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC84</Address>
                     </CheatEntry>
@@ -239,23 +218,20 @@
                   <ID>63</ID>
                   <Description>"Meat"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" Activated="1" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>62</ID>
                       <Description>"Meat"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="01160878"/>
-                      <Color>80000008</Color>
+                      <LastState Value="436" RealAddress="01160878"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D60878</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>30</ID>
                       <Description>"Add Meat"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC80"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115EC80"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC80</Address>
                     </CheatEntry>
@@ -265,23 +241,20 @@
                   <ID>48</ID>
                   <Description>"Hops"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>47</ID>
                       <Description>"Hops"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115ECC0"/>
-                      <Color>80000008</Color>
+                      <LastState Value="16" RealAddress="0115ECC0"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECC0</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>25</ID>
                       <Description>"Add Hops"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC5C"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115EC5C"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC5C</Address>
                     </CheatEntry>
@@ -291,23 +264,20 @@
                   <ID>52</ID>
                   <Description>"Wheat"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>51</ID>
                       <Description>"Wheat"</Description>
-                      <LastState Value="30" Activated="0" RealAddress="0115ECD8"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115ECD8"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECD8</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>27</ID>
                       <Description>"Add Wheat"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC74"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115EC74"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC74</Address>
                     </CheatEntry>
@@ -317,23 +287,20 @@
                   <ID>54</ID>
                   <Description>"Ale"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>53</ID>
                       <Description>"Ale"</Description>
-                      <LastState Value="60" Activated="0" RealAddress="0115ECEC"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115ECEC"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECEC</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>28</ID>
                       <Description>"Add Ale"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC88"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115EC88"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC88</Address>
                     </CheatEntry>
@@ -345,33 +312,52 @@
               <ID>44</ID>
               <Description>"Weapons"</Description>
               <Options moHideChildren="1"/>
-              <LastState Value="" Activated="0" RealAddress="00000000"/>
-              <Color>80000008</Color>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
                   <ID>65</ID>
                   <Description>"Bows"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>64</ID>
                       <Description>"Bows"</Description>
-                      <LastState Value="54" Activated="0" RealAddress="0115ECF8"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115ECF8"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECF8</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>32</ID>
                       <Description>"Add Bows"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC94"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115EC94"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC94</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>78</ID>
+                  <Description>"Crossbows"</Description>
+                  <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>80</ID>
+                      <Description>"Crossbows"</Description>
+                      <LastState Value="0" RealAddress="0115ECFC"/>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>"Stronghold Crusader.exe"+D5ECFC</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>79</ID>
+                      <Description>"Add Crossbows"</Description>
+                      <LastState Value="100" RealAddress="0115EC98"/>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>"Stronghold Crusader.exe"+D5EC98</Address>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
@@ -379,23 +365,20 @@
                   <ID>67</ID>
                   <Description>"Spears"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>66</ID>
                       <Description>"Spears"</Description>
-                      <LastState Value="26" Activated="0" RealAddress="0115ED00"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115ED00"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ED00</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>33</ID>
                       <Description>"Add Spears"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115EC9C"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115EC9C"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5EC9C</Address>
                     </CheatEntry>
@@ -405,23 +388,20 @@
                   <ID>69</ID>
                   <Description>"Pikes"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>68</ID>
                       <Description>"Pikes"</Description>
-                      <LastState Value="68" Activated="0" RealAddress="0115ED04"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115ED04"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ED04</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>34</ID>
                       <Description>"Add Pikes"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115ECA0"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115ECA0"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECA0</Address>
                     </CheatEntry>
@@ -431,23 +411,20 @@
                   <ID>71</ID>
                   <Description>"Maces"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>70</ID>
                       <Description>"Maces"</Description>
-                      <LastState Value="62" Activated="0" RealAddress="0115ED08"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115ED08"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ED08</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>35</ID>
                       <Description>"Add Maces"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115ECA4"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115ECA4"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECA4</Address>
                     </CheatEntry>
@@ -457,23 +434,20 @@
                   <ID>73</ID>
                   <Description>"Swords"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>72</ID>
                       <Description>"Swords"</Description>
-                      <LastState Value="89" Activated="0" RealAddress="0115ED0C"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115ED0C"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ED0C</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>36</ID>
                       <Description>"Add Swords"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115ECA8"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115ECA8"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECA8</Address>
                     </CheatEntry>
@@ -483,23 +457,20 @@
                   <ID>75</ID>
                   <Description>"Leather Armor"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>74</ID>
                       <Description>"Leather Armor"</Description>
-                      <LastState Value="64" Activated="0" RealAddress="0115ED10"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115ED10"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ED10</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>37</ID>
                       <Description>"Add Leather Armor"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115ECAC"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115ECAC"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECAC</Address>
                     </CheatEntry>
@@ -509,23 +480,20 @@
                   <ID>77</ID>
                   <Description>"Iron Armor"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="0" RealAddress="00000000"/>
-                  <Color>80000008</Color>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>76</ID>
                       <Description>"Iron Armor"</Description>
-                      <LastState Value="34" Activated="0" RealAddress="0115ED14"/>
-                      <Color>80000008</Color>
+                      <LastState Value="0" RealAddress="0115ED14"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ED14</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>38</ID>
                       <Description>"Add Iron Armor"</Description>
-                      <LastState Value="0" Activated="0" RealAddress="0115ECB0"/>
-                      <Color>80000008</Color>
+                      <LastState Value="100" RealAddress="0115ECB0"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"Stronghold Crusader.exe"+D5ECB0</Address>
                     </CheatEntry>
@@ -539,17 +507,22 @@
           <ID>40</ID>
           <Description>"Extra"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" Activated="0" RealAddress="00000000"/>
-          <Color>80000008</Color>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>23</ID>
               <Description>"Crusader Skips/Chickens"</Description>
-              <LastState Value="0" Activated="0" RealAddress="00ED17C0"/>
-              <Color>80000008</Color>
+              <LastState Value="0" RealAddress="00ED17C0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>"Stronghold Crusader.exe"+AD17C0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>81</ID>
+              <Description>"UnitsOfFood"</Description>
+              <LastState Value="1109" RealAddress="01160880"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Stronghold Crusader.exe"+D60880</Address>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>

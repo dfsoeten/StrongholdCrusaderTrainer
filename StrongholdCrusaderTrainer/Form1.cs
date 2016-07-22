@@ -17,6 +17,7 @@ namespace StrongholdCrusaderTrainer
         public Mem MemLib = new Mem();
         int gameProcId = 0;
         int goodsAmount = 100;
+        int goodLimiter = 40;
 
         public Form1()
         {
@@ -113,7 +114,7 @@ namespace StrongholdCrusaderTrainer
         //Add all goods
         private void btnAddAllGoods_Click(object sender, EventArgs e)
         {
-            if (gameProcId == 0 || txtChickens.Text == "")
+            if (gameProcId == 0)
                 return;
 
             //Raw Materials
@@ -133,6 +134,7 @@ namespace StrongholdCrusaderTrainer
 
             //Weapons
             MemLib.writeMemory("BowsWrite", codeFile, "int", goodsAmount.ToString());
+            MemLib.writeMemory("CrossBowsWrite", codeFile, "int", goodsAmount.ToString());
             MemLib.writeMemory("SpearsWrite", codeFile, "int", goodsAmount.ToString());
             MemLib.writeMemory("PikesWrite", codeFile, "int", goodsAmount.ToString());
             MemLib.writeMemory("MacesWrite", codeFile, "int", goodsAmount.ToString());
@@ -145,60 +147,63 @@ namespace StrongholdCrusaderTrainer
         private void autoAddAllGoods()
         {
             //Raw Materials
-            if(MemLib.readInt("WoodRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("WoodRead", codeFile) < goodLimiter && MemLib.readInt("WoodWrite", codeFile) < goodsAmount) 
                 MemLib.writeMemory("WoodWrite", codeFile, "int", goodsAmount.ToString());
 
-            if(MemLib.readInt("StoneRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("StoneRead", codeFile) < goodLimiter && MemLib.readInt("StoneWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("StoneWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("IronRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("IronRead", codeFile) < goodLimiter && MemLib.readInt("IronWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("IronWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("PitchRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("PitchRead", codeFile) < goodLimiter && MemLib.readInt("PitchWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("PitchWrite", codeFile, "int", goodsAmount.ToString());
 
             //Foods
-            if (MemLib.readInt("BreadRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("BreadRead", codeFile) < goodLimiter && MemLib.readInt("BreadWrite", codeFile) == 0 && MemLib.readInt("UnitsOfFood", codeFile) < (goodsAmount * 4))
                 MemLib.writeMemory("BreadWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("CheeseRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("CheeseRead", codeFile) < goodLimiter && MemLib.readInt("CheeseWrite", codeFile) == 0 && MemLib.readInt("UnitsOfFood", codeFile) < (goodsAmount * 4))
                 MemLib.writeMemory("CheeseWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("ApplesRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("ApplesRead", codeFile) < goodLimiter && MemLib.readInt("ApplesWrite", codeFile) == 0 && MemLib.readInt("UnitsOfFood", codeFile) < (goodsAmount * 4))
                 MemLib.writeMemory("ApplesWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("MeatRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("MeatRead", codeFile) < goodLimiter && MemLib.readInt("MeatWrite", codeFile) == 0 && MemLib.readInt("UnitsOfFood", codeFile) < (goodsAmount * 4)) 
                 MemLib.writeMemory("MeatWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("HopsRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("HopsRead", codeFile) < goodLimiter && MemLib.readInt("HopsWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("HopsWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("WheatRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("WheatRead", codeFile) < goodLimiter && MemLib.readInt("WheatWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("WheatWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("AleRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("AleRead", codeFile) < goodLimiter && MemLib.readInt("AleWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("AleWrite", codeFile, "int", goodsAmount.ToString());
-
+             
             //Weapons
-            if (MemLib.readInt("BowsRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("BowsRead", codeFile) < goodLimiter && MemLib.readInt("BowsWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("BowsWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("SpearsRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("CrossBowsRead", codeFile) < goodLimiter && MemLib.readInt("CrossBowsWrite", codeFile) < goodsAmount)
+                MemLib.writeMemory("CrossBowsWrite", codeFile, "int", goodsAmount.ToString());
+
+            if (MemLib.readInt("SpearsRead", codeFile) < goodLimiter && MemLib.readInt("SpearsWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("SpearsWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("PikesRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("PikesRead", codeFile) < goodLimiter && MemLib.readInt("PikesWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("PikesWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("MacesRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("MacesRead", codeFile) < goodLimiter && MemLib.readInt("MacesWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("MacesWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("SwordsRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("SwordsRead", codeFile) < goodLimiter && MemLib.readInt("SwordsWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("SwordsWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("LeatherarmorRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("LeatherarmorRead", codeFile) < goodLimiter && MemLib.readInt("LeatherarmorWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("LeatherarmorWrite", codeFile, "int", goodsAmount.ToString());
 
-            if (MemLib.readInt("IronarmorRead", codeFile) < goodsAmount)
+            if (MemLib.readInt("IronarmorRead", codeFile) < goodLimiter && MemLib.readInt("IronarmorWrite", codeFile) < goodsAmount)
                 MemLib.writeMemory("IronarmorWrite", codeFile, "int", goodsAmount.ToString());
         }
 
@@ -349,6 +354,15 @@ namespace StrongholdCrusaderTrainer
             MemLib.writeMemory("BowsWrite", codeFile, "int", goodsAmount.ToString());
         }
 
+        //Crossbows
+        private void btnCrossBows_Click(object sender, EventArgs e)
+        {
+            if (gameProcId == 0)
+                return;
+
+            MemLib.writeMemory("CrossBowsWrite", codeFile, "int", goodsAmount.ToString());
+        } 
+
         //Spears
         private void btnSpears_Click(object sender, EventArgs e)
         {
@@ -410,12 +424,13 @@ namespace StrongholdCrusaderTrainer
                 return;
 
             MemLib.writeMemory("BowsWrite", codeFile, "int", goodsAmount.ToString());
+            MemLib.writeMemory("CrossBowsWrite", codeFile, "int", goodsAmount.ToString());
             MemLib.writeMemory("SpearsWrite", codeFile, "int", goodsAmount.ToString());
             MemLib.writeMemory("PikesWrite", codeFile, "int", goodsAmount.ToString());
             MemLib.writeMemory("MacesWrite", codeFile, "int", goodsAmount.ToString());
             MemLib.writeMemory("SwordsWrite", codeFile, "int", goodsAmount.ToString());
             MemLib.writeMemory("LeatherarmorWrite", codeFile, "int", goodsAmount.ToString());
             MemLib.writeMemory("IronarmorWrite", codeFile, "int", goodsAmount.ToString());
-        } 
+        }
     }
 }
