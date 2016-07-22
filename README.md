@@ -18,6 +18,7 @@ Set the following values:
 - Ale
 - Wheat
 - Bows
+- Crossbows
 - Spears
 - Pikes
 - Maces
@@ -25,7 +26,7 @@ Set the following values:
 - Leather Armor
 - Iron Armor
 
-There are options available to automatically add goods depending on the amount of that good that's available in your stockpile. Each button adds 100 of that specifc good. 
+There are options available to automatically add goods depending on the amount of that good that's available in your stockpile. Each button adds 100 of that specific good. 
 
 ### How to use
 Start the game, start the trainer. Press buttons. Easy as that!
